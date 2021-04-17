@@ -1,0 +1,44 @@
+"Estimated number of arrests by offense and race, 2013"
+"Age: All ages"
+"Offenses","All races","White","Black","American Indian","Asian",
+"All offenses","11,302,100","7,809,270","3,173,490","176,920","142,420",
+"Murder and nonnegligent manslaughter","10,230","4,620","5,350","120","140",
+"Rape","NA","NA","NA","NA","NA",
+"Robbery","94,410","39,330","53,460","690","930",
+"Aggravated assault","358,860","225,710","121,630","5,500","6,020",
+"Burglary","252,630","170,660","76,430","2,490","3,050",
+"Larceny-theft","1,231,580","842,030","352,760","20,340","16,460",
+"Motor vehicle theft","64,570","43,010","19,650","850","1,050",
+"Arson","10,510","7,780","2,430","160","140",
+"Simple assault","1,097,740","715,320","351,710","17,740","12,970",
+"Forgery and counterfeiting","60,970","39,300","20,410","360","900",
+"Fraud","143,530","94,760","45,850","1,440","1,480",
+"Embezzlement","15,730","9,900","5,440","110","280",
+"Stolen property (buying, receiving, possessing)","92,690","62,390","28,270","860","1,170",
+"Vandalism","201,170","142,350","52,910","3,710","2,200",
+"Weapons (carrying, possessing, etc.)","137,780","80,250","54,730","1,100","1,700",
+"Prostitution and commercialized vice","48,620","26,260","20,170","450","1,740",
+"Sex offenses (except rape & prostitution)","NA","NA","NA","NA","NA",
+"Drug abuse violations","1,501,040","1,016,730","454,930","11,870","17,520",
+"Gambling","6,020","1,760","3,950","30","280",
+"Offenses against the family and children","101,250","66,040","32,700","1,860","660",
+"Driving under the influence","1,166,820","981,930","145,680","16,290","22,930",
+"Liquor laws","354,870","285,760","50,900","13,290","4,920",
+"Drunkenness","443,530","358,800","70,560","9,190","4,990",
+"Disorderly conduct","467,990","291,850","162,410","10,070","3,660",
+"Vagrancy","25,760","16,350","8,400","710","300",
+"All other offenses (except traffic)","3,282,650","2,203,830","987,880","55,950","34,990",
+"Curfew and loitering","56,370","29,530","25,310","740","780",
+"Violent Crime Index","NA","NA","NA","NA","NA",
+"Property Crime Index","1,559,280","1,063,480","451,270","23,840","20,690",
+"Violent crimes*","463,500","269,670","180,440","6,320","7,080",
+
+"NA: Beginning in 2013, the FBI broadened the definition of rape, removing the phrase 'forcible' from the offense name and description. The new definition of rape is: Penetration, no matter how slight, of the vagina or anus with any body part or object, or oral penetration by a sex organ of another person, without the consent of the victim. The new definition includes the NIBRS offenses of rape, sodomy, and sexual assault with an object."
+
+"Law enforcement agencies may submit data on rape arrests based on either the new or legacy definition of rape. Due to differences in agency reporting practices, national estimates for the offenses of 'rape' and 'sex offenses' are not available after 2012. Additionally, estimates for the Violent Crime Index (which included 'forcible rape' are not shown after 2012 as this category is no longer compatible with prior years."
+"* The 'violent crimes' category includes the offenses of murder, robbery, and aggravated assault and is presented as an alternative to the Violent Crime Index, which is not available as a result of the change to the definition of rape in 2013. In any given year prior to the change in the rape definition, these three offenses accounted for more than 95% of arrests for Violent Crime Index offenses."
+
+"Internet citation: OJJDP Statistical Briefing Book. Estimated number of arrests by offense and race, 2013. Available: https://www.ojjdp.gov/ojstatbb/crime/ucr.asp?table_in=2. Released onNovember 16, 2020."
+
+"Data source: Arrest estimates for 1980-2014 developed by the Bureau of Justice Statistics and disseminated through 'Arrest Data Analysis Tool.' Online. Available from the BJS website. "
+"Arrest estimates for 2015 through 2019 developed by the National Center for Juvenile Justice based on data published in the FBI's Crime in the United States reports. These are preliminary estimates that will be updated upon release of final estimates on the Bureau of Justice Statistics' Arrest Data Analysis Tool. "

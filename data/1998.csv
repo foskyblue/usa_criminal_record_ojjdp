@@ -1,0 +1,41 @@
+"Estimated number of arrests by offense and race, 1998"
+"Age: All ages"
+"Offenses","All races","White","Black","American Indian","Asian",
+"All offenses","14,363,320","9,767,180","4,264,490","172,910","158,740",
+"Murder and nonnegligent manslaughter","17,450","8,130","8,920","210","200",
+"Forcible rape","31,070","18,850","11,450","360","410",
+"Robbery","120,870","51,000","67,650","750","1,480",
+"Aggravated assault","506,630","312,950","181,920","5,430","6,330",
+"Burglary","330,700","228,480","94,670","3,570","3,980",
+"Larceny-theft","1,307,100","857,580","410,770","16,710","22,050",
+"Motor vehicle theft","150,700","90,170","56,340","1,760","2,440",
+"Arson","17,200","12,860","3,960","170","200",
+"Simple assault","1,338,800","871,120","436,040","17,260","14,390",
+"Forgery and counterfeiting","114,600","75,920","36,360","740","1,580",
+"Fraud","394,600","257,180","131,850","1,870","3,700",
+"Embezzlement","17,100","10,920","5,860","110","220",
+"Stolen property (buying, receiving, possessing)","137,900","81,180","54,040","1,200","1,480",
+"Vandalism","300,200","223,540","69,700","3,880","3,090",
+"Weapons (carrying, possessing, etc.)","190,600","114,390","72,890","1,310","2,010",
+"Prostitution and commercialized vice","94,000","57,000","34,630","590","1,780",
+"Sex offense (except forcible rape and prostitution)","93,600","69,870","21,400","1,090","1,240",
+"Drug abuse violations","1,559,100","965,560","575,330","8,300","9,920",
+"Gambling","12,800","5,450","6,810","30","500",
+"Offenses against the family and children","146,400","100,010","42,940","1,340","2,120",
+"Driving under the influence","1,402,800","1,220,020","145,460","20,370","16,960",
+"Liquor laws","630,400","500,570","110,060","13,550","6,220",
+"Drunkenness","710,300","586,910","103,110","17,560","2,720",
+"Disorderly conduct","696,100","450,480","231,520","8,590","5,510",
+"Vagrancy","30,400","16,330","13,030","720","330",
+"All other offenses (except traffic)","3,824,100","2,444,010","1,291,000","43,400","45,690",
+"Curfew and loitering","187,800","136,720","46,810","2,070","2,200",
+"Violent Crime Index","676,020","390,920","269,940","6,750","8,420",
+"Property Crime Index","1,805,700","1,189,090","565,740","22,210","28,670",
+"Violent crimes*","644,950","372,070","258,480","6,380","8,010",
+
+"* The 'violent crimes' category includes the offenses of murder, robbery, and aggravated assault and is presented as an alternative to the Violent Crime Index, which is not available as a result of the change to the definition of rape in 2013. In any given year prior to the change in the rape definition, these three offenses accounted for more than 95% of arrests for Violent Crime Index offenses."
+
+"Internet citation: OJJDP Statistical Briefing Book. Estimated number of arrests by offense and race, 1998. Available: https://www.ojjdp.gov/ojstatbb/crime/ucr.asp?table_in=2. Released onNovember 16, 2020."
+
+"Data source: Arrest estimates for 1980-2014 developed by the Bureau of Justice Statistics and disseminated through 'Arrest Data Analysis Tool.' Online. Available from the BJS website. "
+"Arrest estimates for 2015 through 2019 developed by the National Center for Juvenile Justice based on data published in the FBI's Crime in the United States reports. These are preliminary estimates that will be updated upon release of final estimates on the Bureau of Justice Statistics' Arrest Data Analysis Tool. "
