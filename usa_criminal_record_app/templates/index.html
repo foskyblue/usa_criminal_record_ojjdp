@@ -69,12 +69,12 @@
 
             </div>
 
-            <div id="charts" class="container mt-5">
+            <div id="select" class="container mt-5">
 
                 <!--top two charts-->
                 <div class="row">
 <!--                    Drop down list here-->
-                    <form method="POST" action="{{ url_for('index') }}">
+                    <form method="POST" action="/index">
                         <div class="col-12">
 
                             <div class="dropdown">
@@ -142,7 +142,7 @@
                                     <option value="Vandalism">Vandalism</option>
                                     <option value="Weapons (carrying, possessing, etc.)">Weapons (carrying, possessing, etc.)</option>
                                     <option value="Prostitution and commercialized vice">Prostitution and commercialized vice</option>
-                                    <option value="Sex offense (except forcible rape and prostitution">Sex offense (except forcible rape and prostitution</option>
+                                    <option value="Sex offense (except forcible rape and prostitution)">Sex offense (except forcible rape and prostitution</option>
                                     <option value="Drug abuse violations">Drug abuse violations</option>
                                     <option value="Gambling">Gambling</option>
                                     <option value="Offenses against the family and children">Offenses against the family and children</option>
@@ -193,7 +193,7 @@
                     </div>
                     <div class="col-8 bg-light text-white">
                         <div id="{{ids[1]}}"></div>
-                        <div class="row">
+                        <div class="row mt-2">
                             <div class="col-6">
                                 <div id="{{ids[0]}}"></div>
                             </div>
