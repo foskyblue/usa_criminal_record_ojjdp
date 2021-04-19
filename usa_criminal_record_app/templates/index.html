@@ -166,27 +166,42 @@
             </div>
 
             <!--charts-->
-            <div id="charts" class="container mt-3 text-center">
+            <div id="charts" class="container mt-5">
 
                 <!--top two charts-->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-4 bg-light">
+                        <b>Violent Crime Index</b> includes murder and nonnegligent manslaughter, forcible rape, robbery,
+                        and aggravated assault. <br><br>
+                        <b>Property Crime Index</b> includes, burglary, larceny-theft, motor vehicle theft, and arson.
+                        <br><br>
+                        NA: Beginning in 2013, the FBI broadened the definition of rape, removing the phrase "forcible"
+                        from the offense name and description. The new definition of rape is: Penetration, no matter
+                        how slight, of the vagina or anus with any body part or object, or oral penetration by a sex
+                        organ of another person, without the consent of the victim. The new definition includes the
+                        NIBRS offenses of rape, sodomy, and sexual assault with an object. <br><br>
+                        Law enforcement agencies may submit data on rape arrests based on either the new or legacy
+                        definition of rape. Due to differences in agency reporting practices, national estimates for
+                        the offenses of "rape" and "sex offenses" are not available after 2012. Additionally, estimates
+                        for the Violent Crime Index (which included "forcible rape") are not shown after 2012 as this
+                        category is no longer compatible with prior years. <br><br>
+                        * The "violent crimes" category includes the offenses of murder, robbery, and aggravated assault
+                        and is presented as an alternative to the Violent Crime Index, which is not available as a
+                        result of the change to the definition of rape in 2013. In any given year prior to the change
+                        in the rape definition, these three offenses accounted for more than 95% of arrests for Violent
+                        Crime Index offenses.
+                    </div>
+                    <div class="col-8 bg-light text-white">
                         <div id="{{ids[1]}}"></div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div id="{{ids[0]}}"></div>
+                            </div>
+                            <div class="col-6">
+                                <div id="{{ids[2]}}"></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-<!--                    Drop down list here-->
-                    <div border="1px" class="col-6">
-                        <div id="{{ids[0]}}"></div>
-                        This field will contain some key metric about the chart displayed above.
-                        This field will contain some key metric about the chart displayed above.
-                        This field will contain some key metric about the chart displayed above.
-                        This field will contain some key metric about the chart displayed above.
-                        This field will contain some key metric about the chart displayed above.
-                    </div>
-<!--                    <div class="col-6">-->
-<!--                        <div id="{{ids[1]}}"></div>-->
-<!--                    </div>-->
                 </div>
             </div>
         </div>

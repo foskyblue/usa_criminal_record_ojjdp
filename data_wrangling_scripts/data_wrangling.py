@@ -41,19 +41,12 @@ def get_figures(year, offense):
         )
     )
 
-    layout = dict(title='USA ' + str(year) + ' ' + str(offense) + ' data bar chart',
+    layout = dict(title='USA ' + str(year) + ' data bar chart',
                   xaxis=dict(title='race'),
                   yaxis=dict(title='count'),
-                  # , showline = True, mirror = True, ticks = 'outside'
                  )
 
     graph_two = []
-    # graph_two_ds = data_series['White']
-    # graph_two_white_x = graph_two_ds.index
-    # graph_two_white_y = graph_two_white_x.values
-
-    # print(data_series.columns)
-    # data_series.drop('All_races', axis=1, inplace=True)
     for race in data_series.columns:
         x_val = data_series[race].index[1:]
         y_val = data_series[race].values
@@ -70,6 +63,20 @@ def get_figures(year, offense):
                       xaxis=dict(autotick=False, dtick=1),
                       yaxis=dict(title='count'),
                       )
+    graph_three = [
+        go.Pie(
+            labels=graph_one_x,
+            values=graph_one_y,
+
+        )
+    ]
+
+    layout_three = dict(title='USA ' + str(year) + ' data Pie chart',
+                  # xaxis=dict(title='race'),
+                  # yaxis=dict(title='count'),
+                  # , showline = True, mirror = True, ticks = 'outside'
+                  )
+
     # graph_two.append(
     #     go.Scatter(
     #         x=race_list,
@@ -78,7 +85,8 @@ def get_figures(year, offense):
 
     figures = [
         dict(data=graph_one, layout=layout),
-        dict(data=graph_two, layout=layout_two)
+        dict(data=graph_two, layout=layout_two),
+        dict(data=graph_three, layout=layout_three)
     ]
     # figures.append(dict(data=graph_one, layout=layout))
     # figures.append(dict(data=graph_one, layout=layout))
