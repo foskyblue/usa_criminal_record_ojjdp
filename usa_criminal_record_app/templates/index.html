@@ -65,7 +65,7 @@
             <div id="middle-info" class="mt-3">
 
                 <h2 id="tag-line">OJJDP Data Dashboard</h2>
-                <h4 id="tag-line2" class="text-muted">1980-2019 United States Criminal Records</h4>
+                <h4 id="tag-line2" class="text-muted">1980-2019 United States Criminal Records Data</h4>
 
             </div>
 
@@ -73,8 +73,8 @@
 
                 <!--top two charts-->
                 <div class="row">
-<!--                    Drop down list here-->
-                    <form method="POST" action="/index">
+                    <!--Drop down list here-->
+                    <form method="POST" action="/index" class="">
                         <div class="col-12">
 
                             <div class="dropdown">
@@ -83,6 +83,7 @@
                                   <option selected>select year</option>
                                   <option value="2019">2019</option>
                                   <option value="2018">2018</option>
+                                  <option value="2017">2017</option>
                                   <option value="2016">2016</option>
                                   <option value="2015">2015</option>
                                   <option value="2014">2014</option>
@@ -120,42 +121,10 @@
                                   <option value="1982">1982</option>
                                   <option value="1981">1981</option>
                                   <option value="1980">1980</option>
-                                </select>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                Offense:
-                                <select id="offense" name="offense" class="form-select form-select-sm" aria-label=".form-select-sm example">
-                                    <option selected>select offense</option>
-                                    <option value="All offenses">All offenses</option>
-                                    <option value="Murder and nonnegligent manslaughter">Murder and nonnegligent manslaughter</option>
-                                    <option value="Forcible rape">Forcible rape</option>
-                                    <option value="Robbery">Robbery</option>
-                                    <option value="Aggravated assault">Aggravated assault</option>
-                                    <option value="Burglary">Burglary</option>
-                                    <option value="Larceny-theft">Larceny-theft</option>
-                                    <option value="Motor vehicle theft">Motor vehicle theft</option>
-                                    <option value="Arson">Arson</option>
-                                    <option value="Simple assault">Simple assault</option>
-                                    <option value="Forgery and counterfeiting">Forgery and counterfeiting</option>
-                                    <option value="Fraud">Fraud</option>
-                                    <option value="Embezzlement">Embezzlement</option>
-                                    <option value="Stolen property (buying, receiving, possessing)">Stolen property (buying, receiving, possessing)</option>
-                                    <option value="Vandalism">Vandalism</option>
-                                    <option value="Weapons (carrying, possessing, etc.)">Weapons (carrying, possessing, etc.)</option>
-                                    <option value="Prostitution and commercialized vice">Prostitution and commercialized vice</option>
-                                    <option value="Sex offense (except forcible rape and prostitution)">Sex offense (except forcible rape and prostitution</option>
-                                    <option value="Drug abuse violations">Drug abuse violations</option>
-                                    <option value="Gambling">Gambling</option>
-                                    <option value="Offenses against the family and children">Offenses against the family and children</option>
-                                    <option value="Driving under the influence">Driving under the influence</option>
-                                    <option value="Liquor laws">Liquor laws</option>
-                                    <option value="Drunkenness">Drunkenness</option>
-                                    <option value="Disorderly conduct">Disorderly conduct</option>
-                                    <option value="Vagrancy">Vagrancy</option>
-                                    <option value="All other offenses (except traffic)">All other offenses (except traffic)</option>
-                                    <option value="Curfew and loitering">Curfew and loitering</option>
-                                    <option value="Violent Crime Index">Violent Crime Index</option>
-                                    <option value="Property Crime Index">Property Crime Index</option>
-                                    <option value="Violent crimes* 	">Violent crimes* 	</option>
+                                </select> <br>
+                                Offence:
+                                <select id="offense" name="offense">
+                                    <option value="">select offence</option>
                                 </select>
                                 &nbsp;
                                 <button>Search</button>
@@ -175,27 +144,25 @@
                         and aggravated assault. <br><br>
                         <b>Property Crime Index</b> includes, burglary, larceny-theft, motor vehicle theft, and arson.
                         <br><br>
-                        NA: Beginning in 2013, the FBI broadened the definition of rape, removing the phrase "forcible"
-                        from the offense name and description. The new definition of rape is: Penetration, no matter
-                        how slight, of the vagina or anus with any body part or object, or oral penetration by a sex
-                        organ of another person, without the consent of the victim. The new definition includes the
-                        NIBRS offenses of rape, sodomy, and sexual assault with an object. <br><br>
-                        Law enforcement agencies may submit data on rape arrests based on either the new or legacy
-                        definition of rape. Due to differences in agency reporting practices, national estimates for
-                        the offenses of "rape" and "sex offenses" are not available after 2012. Additionally, estimates
-                        for the Violent Crime Index (which included "forcible rape") are not shown after 2012 as this
-                        category is no longer compatible with prior years. <br><br>
-                        * The "violent crimes" category includes the offenses of murder, robbery, and aggravated assault
+                        <b>The "violent crimes*"</b> category includes the offenses of murder, robbery, and aggravated assault
                         and is presented as an alternative to the Violent Crime Index, which is not available as a
-                        result of the change to the definition of rape in 2013. In any given year prior to the change
-                        in the rape definition, these three offenses accounted for more than 95% of arrests for Violent
-                        Crime Index offenses.
+                        result of the change to the definition of rape in 2013. <br><br>
+<!--                        NA: Beginning in 2013, the FBI broadened the definition of rape, removing the phrase "forcible"-->
+<!--                        from the offense name and description. The new definition of rape is: Penetration, no matter-->
+<!--                        how slight, of the vagina or anus with any body part or object, or oral penetration by a sex-->
+<!--                        organ of another person, without the consent of the victim. The new definition includes the-->
+<!--                        NIBRS offenses of rape, sodomy, and sexual assault with an object. <br><br>-->
+<!--                        Law enforcement agencies may submit data on rape arrests based on either the new or legacy-->
+<!--                        definition of rape. Due to differences in agency reporting practices, national estimates for-->
+<!--                        the offenses of "rape" and "sex offenses" are not available after 2012. Additionally, estimates-->
+<!--                        for the Violent Crime Index (which included "forcible rape") are not shown after 2012 as this-->
+<!--                        category is no longer compatible with prior years. <br><br>-->
                     </div>
-                    <div class="col-8 bg-light text-white">
-                        <div id="{{ids[1]}}"></div>
+                    <div class="col-8 bg-light text-white img-fluid">
+                        <div id="{{ids[0]}}"></div>
                         <div class="row mt-2">
                             <div class="col-6">
-                                <div id="{{ids[0]}}"></div>
+                                <div id="{{ids[1]}}"></div>
                             </div>
                             <div class="col-6">
                                 <div id="{{ids[2]}}"></div>
@@ -209,7 +176,6 @@
 
     <!--footer section-->
     <div id="footer" class="container"></div>
-
     <footer>
 
         <script>
@@ -223,8 +189,81 @@
                     figures[i].layout || {});
             }
         </script>
-
+        <script>
+            $(document).ready(function () {
+                $("#year").change(function () {
+                    var val = $(this).val();
+                    if (val <= 2019 && val >= 2013) {
+                        $("#offense").html("<option value='Aggravated assault'>Aggravated assault</option>\
+                                            <option value='All offenses'>All offenses</option>\
+                                            <option value='All other offenses (except traffic)'>All other offenses (except traffic)</option>\
+                                            <option value='Arson'>Arson</option>\
+                                            <option value='Burglary'>Burglary</option>\
+                                            <option value='Curfew and loitering'>Curfew and loitering</option>\
+                                            <option value='Disorderly conduct'>Disorderly conduct</option>\
+                                            <option value='Driving under the influence'>Driving under the influence</option>\
+                                            <option value='Drug abuse violations'>Drug abuse violations</option>\
+                                            <option value='Drunkenness'>Drunkenness</option>\
+                                            <option value='Embezzlement'>Embezzlement</option>\
+                                            <option value='Forgery and counterfeiting'>Forgery and counterfeiting</option>\
+                                            <option value='Fraud'>Fraud</option>\
+                                            <option value='Gambling'>Gambling</option>\
+                                            <option value='Larceny-theft'>Larceny-theft</option>\
+                                            <option value='Liquor laws'>Liquor laws</option>\
+                                            <option value='Motor vehicle theft'>Motor vehicle theft</option>\
+                                            <option value='Murder and nonnegligent manslaughter''>Murder and nonnegligent manslaughter'</option>\
+                                            <option value='Offenses against the family and children'>Offenses against the family and children</option>\
+                                            <option value='Property Crime Index'>Property Crime Index</option>\
+                                            <option value='Prostitution and commercialized vice'>Prostitution and commercialized vice</option>\
+                                            <option value='Rape'>Rape</option>\
+                                            <option value='Robbery'>Robbery</option>\
+                                            <option value='Sex offenses (except rape & prostitution)'>Sex offenses (except rape & prostitution)</option>\
+                                            <option value='Simple assault'>Simple assault</option>\
+                                            <option value='Stolen property (buying, receiving, possessing)'>Stolen property (buying, receiving, possessing)</option>\
+                                            <option value='Vagrancy'>Vagrancy</option>\
+                                            <option value='Vandalism'>Vandalism</option>\
+                                            <option value='Violent Crime Index'>Violent Crime Index</option>\
+                                            <option value='Violent crimes*'>Violent crimes*</option>\
+                                            <option value='Weapons (carrying, possessing, etc.)'>Weapons (carrying, possessing, etc.)</option>\
+                                            ");
+                    } else if (val >= 1980 && val < 2013) {
+                        $("#offense").html("<option value='Aggravated assault'>Aggravated assault</option>\
+                                            <option value='All offenses'>All offenses</option>\
+                                            <option value='All other offenses (except traffic)'>All other offenses (except traffic)</option>\
+                                            <option value='Arson'>Arson</option>\
+                                            <option value='Burglary'>Burglary</option>\
+                                            <option value='Curfew and loitering'>Curfew and loitering</option>\
+                                            <option value='Disorderly conduct'>Disorderly conduct</option>\
+                                            <option value='Driving under the influence'>Driving under the influence</option>\
+                                            <option value='Drug abuse violations'>Drug abuse violations</option>\
+                                            <option value='Drunkenness'>Drunkenness</option>\
+                                            <option value='Embezzlement'>Embezzlement</option>\
+                                            <option value='Forcible rape'>Forcible rape</option>\
+                                            <option value='Forgery and counterfeiting'>Forgery and counterfeiting</option>\
+                                            <option value='Fraud'>Fraud</option>\
+                                            <option value='Gambling'>Gambling</option>\
+                                            <option value='Larceny-theft'>Larceny-theft</option>\
+                                            <option value='Liquor laws'>Liquor laws</option>\
+                                            <option value='Motor vehicle theft'>Motor vehicle theft</option>\
+                                            <option value='Murder and nonnegligent manslaughter''>Murder and nonnegligent manslaughter'</option>\
+                                            <option value='Offenses against the family and children'>Offenses against the family and children</option>\
+                                            <option value='Property Crime Index'>Property Crime Index</option>\
+                                            <option value='Prostitution and commercialized vice'>Prostitution and commercialized vice</option>\
+                                            <option value='Rape'>Rape</option>\
+                                            <option value='Robbery'>Robbery</option>\
+                                            <option value='Sex offense (except forcible rape and prostitution)'>Sex offense (except forcible rape and prostitution)</option>\
+                                            <option value='Simple assault'>Simple assault</option>\
+                                            <option value='Stolen property (buying, receiving, possessing)'>Stolen property (buying, receiving, possessing)</option>\
+                                            <option value='Vagrancy'>Vagrancy</option>\
+                                            <option value='Vandalism'>Vandalism</option>\
+                                            <option value='Violent Crime Index'>Violent Crime Index</option>\
+                                            <option value='Violent crimes*'>Violent crimes*</option>\
+                                            <option value='Weapons (carrying, possessing, etc.)'>Weapons (carrying, possessing, etc.)</option>\
+                                            ");
+                    }
+                });
+            });
+        </script>
     </footer>
-
 </body>
 </html>
