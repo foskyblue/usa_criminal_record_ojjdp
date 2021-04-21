@@ -17,80 +17,8 @@ def data_cleaning(year, offense='All offenses'):
     df = df[df.columns].replace(',', '', regex=True)  # remove all commas from each column with numbers
     df = df.apply(pd.to_numeric)  # convert objects to float
     df.drop('All_races', axis=1, inplace=True)
+    df = df.fillna(0)
     # val = df.loc[offense]
+    # print(df)
     return df
 
-
-def get_figures(year, offense):
-    graph_one = []
-    # offense = 'Robbery'
-    data_series = data_cleaning(year, offense=offense)
-
-    graph_one_ds = data_series.loc[offense]
-    # if offense != 'All offenses':
-    #     data_series.drop(offense)
-
-    graph_one_x = graph_one_ds.index
-    graph_one_y = graph_one_ds.values
-
-    graph_one.append(
-        go.Bar(
-            x=graph_one_x,
-            y=graph_one_y,
-
-        )
-    )
-
-    layout = dict(title='USA ' + str(year) + ' data bar chart',
-                  xaxis=dict(title='race'),
-                  yaxis=dict(title='count'),
-                 )
-
-    graph_two = []
-    for race in data_series.columns:
-        x_val = data_series[race].index[1:]
-        y_val = data_series[race].values
-        graph_two.append(
-            go.Scatter(
-                x=x_val,
-                y=y_val,
-                mode='lines',
-                name=race
-            )
-        )
-
-    layout_two = dict(title='USA ' + str(year) + ' ' + str(offense) + ' data line chart',
-                      xaxis=dict(autotick=False, dtick=1),
-                      yaxis=dict(title='count'),
-                      )
-    graph_three = [
-        go.Pie(
-            labels=graph_one_x,
-            values=graph_one_y,
-
-        )
-    ]
-
-    layout_three = dict(title='USA ' + str(year) + ' data Pie chart',
-                  # xaxis=dict(title='race'),
-                  # yaxis=dict(title='count'),
-                  # , showline = True, mirror = True, ticks = 'outside'
-                  )
-
-    # graph_two.append(
-    #     go.Scatter(
-    #         x=race_list,
-    #     )
-    # )
-
-    figures = [
-        dict(data=graph_one, layout=layout),
-        dict(data=graph_two, layout=layout_two),
-        dict(data=graph_three, layout=layout_three)
-    ]
-    # figures.append(dict(data=graph_one, layout=layout))
-    # figures.append(dict(data=graph_one, layout=layout))
-
-    return figures
-
-# get_figures(2019, 'All offenses')
