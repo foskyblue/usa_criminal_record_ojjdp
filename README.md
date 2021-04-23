@@ -35,11 +35,11 @@ I'm interested in finding the crime rate for all races in the United States from
 
 ## File Descriptions <a name="files"></a>
 
-In progress**
+This is a webapp developed in python and flask. The files includes all required heroku configuration files and a jupyter notebook file.
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://foskies.medium.com/things-you-should-know-about-web-development-2c71ffd3ffa3). You can also view the results using a designed data dashbaord [here]().
+The main findings of the code can be found at the post available in the jupyter notebook file, *usa_doj_criminal_data.ipynb*. Also, you can view data sets for each year using a designed data dashboard [here](https://usa-criminal-record-ojjdp.herokuapp.com/).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
