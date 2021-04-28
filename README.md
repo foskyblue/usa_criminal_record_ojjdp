@@ -9,7 +9,7 @@
 
 ## Installation <a name="installation"></a>
 
-To run this project, you can clone this repository onto your local machine and follow the instructions below to run a local server. Also, you can visit the webpage [here]() to view the code results. 
+To run this project, you can clone this repository onto your local machine and follow the instructions below to run a local server.
 
 The version of python used is python 3.*. 
 
